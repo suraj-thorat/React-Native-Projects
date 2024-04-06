@@ -30,7 +30,7 @@ function App(): JSX.Element {
   });
 
   const handlePress = () => {
-    const newColors = colors.map((color) => generateColor()); // Generate new random colors for all elements
+    const newColors = colors.map(() => generateColor()); // Generate new random colors for all elements
     while (newColors.some((color, index) => colors.includes(color) && color !== newColors[index])) {
       // Regenerate specific color if it matches any existing color (excluding itself)
       newColors[Math.floor(Math.random() * 3)] = generateColor(); // Randomly replace a color if needed
