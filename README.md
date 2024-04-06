@@ -12,6 +12,9 @@ I would like to extend my gratitude to  for the original projects that inspired 
 
 ## Projects List
 
+- [Dynamic Color Palette](https://github.com/suraj-thorat/React-Native-Projects/tree/main/dynamicColorPalette)
+- [PolyDice App](https://github.com/suraj-thorat/React-Native-Projects/tree/main/polyDice)
+
 ---
 
 ## Must read from Hashnode
